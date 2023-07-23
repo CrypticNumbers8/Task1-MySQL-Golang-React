@@ -1,0 +1,39 @@
+/* Root container */
+.root {
+  margin: 16px;
+  padding: 16px;
+}
+
+/* Table Container */
+.tableContainer {
+  min-width: 650px;
+}
+
+/* Table */
+.table {
+  width: 100%;
+}
+
+/* Table Cells */
+.table td {
+  font-size: 14px;
+}
+
+/* Table Headers */
+.table th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Hover effect on Table Headers */
+.table th:hover {
+  background-color: #dcdcdc;
+}
+
+/* Highlight the selected Table Header */
+.table th.selected {
+  background-color: #007bff;
+  color: #ffffff;
+}
